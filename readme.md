@@ -1,5 +1,7 @@
 # Projet : Lab de Vulnérabilités Web — Injection SQL
 
+Page "centrale" du projet : login.php
+
 ## 🎯 Objectif du projet
 
 Ce labo a pour but de créer un **site web volontairement vulnérable**, afin de comprendre les mécanismes d'une **injection SQL**.
